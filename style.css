@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+      margin: 0;
+      margin-bottom: 100px;
+      padding: 0;
+      background-color:whitesmoke;
+      
+}
+.top-navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+.top-navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+  
+.top-navbar a:hover {
+    background-color: #c1375e;
+    color: white;
+    
+}
+
+.right-navbar {
+    float: right;
+    
+}
+
+  
+
+
+.table-section , .form-sec{
+    margin-left: 25%;
+    background-color: white;
+    width:50%;
+     box-shadow: 0 0 5px rgb(193, 184, 184);
+}
+.table-container, .form-container{
+    margin-left:20px ;
+    padding-bottom: 10px;
+    
+}
+.table-section , .form-section{
+    margin-left: 25%;
+    background-color: white;
+    width:50%;
+     box-shadow: 0 0 5px rgb(193, 184, 184);
+}
+#main-table{
+    width: 95%;
+}
+td {
+    border:1px solid rgba(173, 174, 171, 0.927);
+   
+}
+td , th{
+    padding:10px;
+}
+table,th,tbody,td{
+    border-spacing: 0;
+    
+}
+.child-table td{
+    padding: 7px;
+    margin: 15px;
+}
+form div input{
+    width: 95%;
+    padding: 7px;
+    border:1px solid rgb(227, 216, 216)
+    
+}
+input[type="text"]:focus {
+    outline: none;
+    border:2px solid skyblue;
+    
+}
+input[type="submit"]:hover{
+    outline: none;
+    background-color: #484546;
+}

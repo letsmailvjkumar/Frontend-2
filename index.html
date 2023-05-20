@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="link" type="image/png" href="./images/library.png">
+    <link rel="stylesheet" href="style.css">
+    <title>library system</title>
+</head>
+<body>
+    <section class="top-navbar">
+            <a href="#">Library</a>
+            <section class="right-navbar">
+            <a href="#books" class="active">Book</a>
+            <a href="#register">Register</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Logout</a>
+        </section>
+    </section>
+    <section class="table-section">
+        <div class="table-container">
+        <h1 id="books">Books</h1>
+        <table id="main-table" border="1px solid black" width="70%" style="border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                <td>
+                   <table class="child-table">
+                    <thead>
+                        <th><a href="https://www.amazon.com/Introduction-Algorithms-Edition-Thomas-Cormen/dp/0262033844?tag=javamysqlanta-20" target="_blank">Introduction to Algorithms </a></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>Publication Date: 2000</td>
+                        </tr>
+                        <tr>
+                        <td>Page Count: 250</td>
+                        </tr>
+                        <tr>
+                        <td>ISBN: 123-45678901234</td>
+                        </tr>
+                    </tbody>
+                   </table>
+                   </td>
+                <td>Thomas H. Cormen</td>
+                <td>Programming</td>
+                <td>Available</td>
+                </tr>
+                
+                <tr>
+                    <td>2</td>
+                    <td>
+                   <table class="child-table">
+                    <thead>
+                        <th><a href="https://mybooksfactory.com/store/operating-system-concepts-8th-edition-by-abraham-silberschatz-peter-b-galvin/?gclid=CjwKCAjw36GjBhAkEiwAKwIWyU59F4Riq0yZiYSKxoQHV_ao3Gmm9MGGKmZEyiVcJoRd2ayaihq63xoCAHwQAvD_BwE" target="_blank">Operating System Concepts</a></th>
+                    </thead>
+                    <tbody>
+                   <tr>
+                    <td>Publication Date: 2001</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 200</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 231-4312356689</td>
+                    </tr>
+                    </tbody>
+                   </table>
+                    </td>
+                    <td>Abraham Silberschatz, Peter B. Galvin</td>
+                    <td>Operating system</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>
+                    <table class="child-table">
+                    <thead>
+                        <th><a href="https://www.amazon.in/Computer-Networking-Eight-Editon-Pearson/dp/9356061319/ref=asc_df_9356061319/?tag=googleshopdes-21&linkCode=df0&hvadid=588833305641&hvpos=&hvnetw=g&hvrand=7312978894315903519&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007768&hvtargid=pla-1694866798705&psc=1" target="_blank">Computer Networking: A Top Down Approach</a></th>
+                    </thead>
+                    <tbody>
+                   <tr>
+                    <td>Publication Date: 2004</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 350</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 123-321456712310</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    </td>
+                    <td>Jim Kurose</td>
+                    <td>Networking</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>
+                   <table class="child-table">
+                    <thead>
+                        <th><a href="https://www.amazon.in/Design-Analysis-Algorithms-Parag-Himanshu/dp/B007YTJ272" target="_blank">Design and Analysis of Algorithms</a></th>
+                    </thead>
+                    <tbody>
+                   <tr>
+                    <td>Publication Date: 2005</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 400</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 789-12345601234</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    </td>
+                    <td>Himanshu B. Dave and Parag H. Dave</td>
+                    <td>Programming</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>
+                   <table class="child-table">
+                    <thead>
+                        <th><a href="#">Cryptography and Network Security</a></th>
+                    </thead>
+                    <tbody>
+                   <tr>
+                    <td>Publication Date: 2017</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 768</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 978-9332585225</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    </td>
+                    <td>William Stallings</td>
+                    <td>Cryptography</td>
+                    <td>Not Available</td>
+                </tr>  
+            </tbody>
+        </table>
+        </div>
+    </section>
+    <section class="form-section">
+        <div class="form-container" >
+    <h1 id="register">Register</h1>
+    <form  action="#" method="post">
+        <div>
+        <label for="Fname">FirstName:</label><br>
+        <input type="text" maxlength="10" id="Fname" placeholder="Enter your FirstName" size="100" required>
+        </div>
+        <br>
+        <div>
+        <label for="Lname">LastName:</label><br>
+        <input type="text" maxlength="10" id="fname" placeholder="Enter your LastName" size="100" required>
+        </div>
+        <br>
+        <div>
+        <label for="dob">Date of Birth*</label><br>
+        <input type="date" value="2023-05-21" min="1999-01-01" max="2023-05-21"id="dob" required>
+        </div>
+        <br>
+        <div>
+        <label for="age">Age*</label><br>
+        <input type="number"  id="age" min="15" max="100"  placeholder="Age" required>
+        </div>
+        <br>
+        <div>
+        <label for="email">Email*</label><br>
+        <input type="email"  id="email" placeholder="Enter your Email" size="100" required>
+        </div>
+        <br>
+        <div>
+        <label for="password">Password*</label><br>
+        <input type="password" id="password" placeholder="Enter your Password" size="100" required>
+        </div>
+        <br>
+        <div>
+        <label for="Cpassword">Confirm Password*</label><br>
+        <input type="password" id="password" placeholder="Re-Type your Password" size="100" required>
+        </div>
+        <br>
+        <div>
+            <input id="register-btn" type="submit" value="Register" />
+        </div>
+        <br>
+
+    </form>
+</div>
+</section>
+</body>
+</html>
